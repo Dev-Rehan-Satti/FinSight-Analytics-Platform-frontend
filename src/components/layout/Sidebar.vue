@@ -4,10 +4,10 @@
             <div class="bg-white dark:bg-[#0e1726] h-full">
                 <div class="flex justify-between items-center px-4 py-3">
                     <router-link to="/" class="main-logo flex items-center shrink-0">
-                        <img class="w-8 ml-[5px] flex-none" src="/assets/logo/logo.svg" alt="" />
+                        <img class="w-8 ml-[5px] flex-none" src="/assets/logo/abc.avif" alt="" />
                         <div class="flex flex-col ltr:ml-3 rtl:mr-3">
-                            <span class="font-semibold dark:text-white-light text-sm">Inkula</span>
-                            <span class="font-semibold dark:text-white-light text-sm">Financials</span>
+                            <span class="font-semibold dark:text-white-light text-sm">FinSight </span>
+                            <span class="font-semibold dark:text-white-light text-sm">Analytics</span>
                         </div>
                     </router-link>
                     <a
@@ -89,7 +89,7 @@
                             >
                                 <line x1="5" y1="12" x2="19" y2="12"></line>
                             </svg>
-                            <span>ECONOMIC AND CAPITAL MARKET INFORMATION</span>
+                            <span>Economic and Capital Market Analytics</span>
                         </h2>
 
                         <li v-if="hasPermission('View Economic Submission')" class="nav-item">
